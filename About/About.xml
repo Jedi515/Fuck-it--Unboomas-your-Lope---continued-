@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Fuck it *Unboomas your Lope* (continued)</name>
+	<author>Jedi515</author>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<packageId>Jedi515.Lope</packageId>
+	<description>It Unbooma's your Lopes, what do you expect?
+	</description>
+	
+	<incompatibleWith>
+		<li>TheKingInYellow.Lope</li>
+	</incompatibleWith>
+	<loadAfter>
+		<li>CETeam.CombatExtended</li>
+		<li>Albion.SparklingWorlds.Full</li>
+	</loadAfter>
+</ModMetaData>

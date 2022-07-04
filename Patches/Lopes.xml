@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Boomalope"]/comps</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Boomalope"]/race/deathActionWorkerClass</xpath>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[defName="Boomalope"]/race/executionRange</xpath>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Boomalope"]/description</xpath>
+				<value><description>Not engineered for chemicals production, lopes do not grow a large sac of volatile chemicals on their back. Though it is weak and fragile for its size, other animals have learned to avoid it because it just kinda sucks.</description></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Boomalope"]/label</xpath>
+				<value><label>Lope</label></value>
+			</li>
+			
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Boomalope"]/label</xpath>
+				<value><label>lope</label></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Boomalope"]/lifeStages/li[1]/label</xpath>
+				<value><label>lope calf</label></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Boomalope"]/lifeStages/li[1]/labelPlural</xpath>
+				<value><labelPlural>lope calves</labelPlural></value>
+			</li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/PawnKindDef[defName="Boomalope"]/lifeStages/li/bodyGraphicData/texPath</xpath>
+				<value><texPath>Things/Pawn/Animal/Lope/Lope</texPath></value>
+			</li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/PawnKindDef[defName="Boomalope"]/lifeStages/li/bodyGraphicData/shaderType</xpath>
+			</li>
+		</operations>
+	</Operation>
+</Patch>
